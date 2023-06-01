@@ -26,9 +26,9 @@ public class loginPage1 {
 	}
 		
 	public void nagivate() throws InterruptedException {
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		driver.navigate().to("https://www.youtube.com/");	
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		driver.navigate().back();
 		System.out.println("The title of this page is: " +driver.getTitle());
 		
